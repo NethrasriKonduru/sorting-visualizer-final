@@ -1,0 +1,13 @@
+[0;1;32m●[0m mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2025-04-07 18:57:44 IST; 1s ago
+       Docs: https://docs.mongodb.org/manual
+   Main PID: 97247 (mongod)
+     Memory: 11.9M
+     CGroup: /system.slice/mongod.service
+             └─97247 /usr/bin/mongod --config /etc/mongod.conf
+
+Apr 07 18:57:44 nethra-lenovo systemd[1]: Started MongoDB Database Server.
+Apr 07 18:57:45 nethra-lenovo mongod[97247]: {"t":{"$date":"2025-04-07T13:27:45.659Z"},"s":"I",  "c":"CONTROL",  "id":7484500, "ctx":"-","msg":"Environment variable MONGODB_CONFIG_OVERRIDE_NOFORK == 1, overriding \"processManagement.fork\" to false"}
+Apr 07 18:57:48 nethra-lenovo systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongod.service: Main process exited, code=exited, status=14/n/a[0m
+Apr 07 18:57:48 nethra-lenovo systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmongod.service: Failed with result 'exit-code'.[0m
